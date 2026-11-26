@@ -17,15 +17,15 @@
 <main>
 
 <h1 class="page">Privacy policy</h1>
-<p class="meta">App: Rusty (Android browser) &middot; Developer: Cryotap &middot; Last updated: 17 November 2026</p>
+<p class="meta">App: Rusty (Android browser) &middot; Developer: Cryotap &middot; Last updated: 26 November 2026</p>
 
-<div class="callout"><strong>In short:</strong> Rusty has no accounts, no ads and no analytics. Cryotap does not run any server that receives your browsing data, and does not collect, sell or share your personal information. Your bookmarks, history and settings are stored only on your device.</div>
+<div class="callout"><strong>In short:</strong> Rusty has no accounts and no analytics. It shows small banner ads in a few Settings pages, supplied by Start.io. Cryotap does not run any server that receives your browsing data, and does not sell your personal information. Your bookmarks, history and settings are stored only on your device.</div>
 
 <h2>1. Who we are</h2>
 <p>Rusty is a web browser for Android published by Cryotap ("we", "us"). You can contact us at <a href="mailto:mrdevcat@gmail.com">mrdevcat@gmail.com</a>.</p>
 
 <h2>2. Information we collect</h2>
-<p><strong>We do not collect any personal information.</strong> Rusty does not have user accounts, does not ask for your name, email address or phone number, and does not include advertising, analytics, crash-reporting or tracking software. We do not receive your browsing history, searches, bookmarks, location, files, contacts or any other data from the app.</p>
+<p><strong>We do not collect any personal information ourselves.</strong> Rusty does not have user accounts, does not ask for your name, email address or phone number, and does not include analytics or crash-reporting software. The only advertising software is the Start.io ad SDK described in section 4. We do not receive your browsing history, searches, bookmarks, location, files, contacts or any other data from the app.</p>
 
 <h2>3. Information stored on your device</h2>
 <p>To work as a browser, Rusty stores the following <em>only on your device</em>, inside the app's private storage:</p>
@@ -46,7 +46,12 @@
 <tr><td>Browsing</td><td>The websites you visit</td><td>Normal web requests. Each website's own privacy policy applies.</td></tr>
 <tr><td>Searching</td><td>Your chosen search engine (DuckDuckGo by default; Google, Bing, Brave Search, Startpage or Ecosia if you pick them)</td><td>The words you search for.</td></tr>
 <tr><td>Search suggestions (can be turned off in Settings)</td><td>DuckDuckGo</td><td>The text you type in the address bar, to suggest searches.</td></tr>
+<tr><td>Translate pages to my language (off by default)</td><td>Google Translate</td><td>The address of pages written in another language, so they can be translated.</td></tr>
+<tr><td>Skip sponsors on YouTube (off by default)</td><td>SponsorBlock service (sponsor.ajay.app)</td><td>A short hash prefix of the video ID you are watching.</td></tr>
+<tr><td>Online file or hash lookup (only when you tap it)</td><td>VirusTotal</td><td>The file's hash (never the file itself).</td></tr>
 <tr><td>Website icons on the start page (can be turned off in Settings)</td><td>Google favicon service</td><td>The domain names of the sites on your speed dials, to fetch their icons.</td></tr>
+<tr><td>Banner ads in Settings (not shown in kid safe mode)</td><td>Start.io</td><td>Your advertising ID, IP address, approximate location, device and app details and ad interactions, so a banner can be chosen and shown. Without the Personalised ads switch (Settings &rarr; About, off by default) ads are not personalised. Start.io's own privacy policy applies. Ads only appear on a few Settings pages, never on websites you visit.</td></tr>
+<tr><td>Tor routing (only if you turn it on)</td><td>The Orbot app on your device, then the Tor network</td><td>Page traffic, sent to Orbot on your phone. Rusty does not run Tor itself.</td></tr>
 <tr><td>Ad blocker lists</td><td>easylist.to and GitHub (raw.githubusercontent.com)</td><td>A request to download public filter lists. No personal data is sent.</td></tr>
 <tr><td>Installing Chrome extensions</td><td>Google (Chrome Web Store)</td><td>The ID of the extension you choose to install.</td></tr>
 <tr><td>Translate page (only if you choose it)</td><td>Google Translate</td><td>The address of the page you want translated.</td></tr>
@@ -65,6 +70,9 @@
 <li><strong>Modify audio settings:</strong> so web video and audio can play correctly.</li>
 <li><strong>Storage (Android 9 and older only):</strong> to save files you download.</li>
 <li><strong>VPN service:</strong> only to run the VPN feature described above.</li>
+<li><strong>Advertising ID:</strong> used by the ad network for the banner ads in Settings.</li>
+<li><strong>Display over other apps, notifications and foreground service:</strong> only for the floating mini-browser window you open yourself.</li>
+<li><strong>Biometrics:</strong> only to unlock private tabs, if you turn that on.</li>
 </ul>
 <p>Rusty reads the clipboard only when you tap "Paste &amp; go", or, if you turn the option on, to offer to open a copied link.</p>
 
@@ -84,7 +92,7 @@
 <p>Rusty has no accounts, so there is no account to delete, and we hold no data about you on our side to remove.</p>
 
 <h2>10. Children</h2>
-<p>Rusty is a general-purpose browser and is not directed to children under 13. We do not knowingly collect any information from anyone, including children.</p>
+<p>Rusty is a general-purpose browser and is not directed to children under 13. We do not knowingly collect any information from anyone, including children. Ads are not shown while kid safe mode is on.</p>
 
 <h2>11. Your rights</h2>
 <p>Depending on where you live (for example under the UK GDPR, EU GDPR or California privacy law), you may have rights to access, correct or delete personal data held about you. We do not hold personal data about you. If you have a question, contact us at the address above.</p>
